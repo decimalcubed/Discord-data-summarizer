@@ -1,7 +1,8 @@
 # Discord data summarizer
 Really low quality mid script I wrote really quickly, it reads a discord data packets messages and gives you really basic information.
 
-# This only works on 64 bit windows, if you are on linux youll have to figure something out on your own
+# This only works on 64 bit windows
+If you are on linux/mac you will have to figure something out on your own sorry
 
 Gives you information on how many messages you posted, and your most chatted in channels, for the years 2020-2025 (its hardcoded im too lazy to do it better)
 Doesnt give ANY information on how much time youve spent in vcs, because the file i would need to parse for that is like 4 million lines long and im NOT doing all that
