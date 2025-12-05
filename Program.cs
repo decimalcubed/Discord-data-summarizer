@@ -178,52 +178,52 @@ namespace DiscordDataSummarizer
             Console.WriteLine("WARN!: if there were no messages in a year, it might show random channels here but idk what it does it might just be wrong\n");
 
             var max_2025 = MessagesPerChannel2025.OrderByDescending(d => d.Value).ToArray();
-            Console.WriteLine("most popular channels in 2025: \n    "
-                + channel_map[max_2025[0].Key] + " \n    "
-                + channel_map[max_2025[1].Key] + " \n    "
-                + channel_map[max_2025[2].Key] + " \n    "
-                + channel_map[max_2025[3].Key] + " \n    "
-                + channel_map[max_2025[4].Key] + " \n ");
+            Console.WriteLine("most popular channels in 2025: \n    " + 
+                "#1: " + max_2025[0].Value.ToString() + " | " + channel_map[max_2025[0].Key] + " \n    " + 
+                "#2: " + max_2025[1].Value.ToString() + " | " + channel_map[max_2025[1].Key] + " \n    " +
+                "#3: " + max_2025[2].Value.ToString() + " | " + channel_map[max_2025[2].Key] + " \n    " +
+                "#4: " + max_2025[3].Value.ToString() + " | " + channel_map[max_2025[3].Key] + " \n    " +
+                "#5: " + max_2025[4].Value.ToString() + " | " + channel_map[max_2025[4].Key] + " \n ");
 
             var max_2024 = MessagesPerChannel2024.OrderByDescending(d => d.Value).ToArray();
-            Console.WriteLine("most popular channels in 2024: \n    "
-                + channel_map[max_2024[0].Key] + " \n    "
-                + channel_map[max_2024[1].Key] + " \n    "
-                + channel_map[max_2024[2].Key] + " \n    "
-                + channel_map[max_2024[3].Key] + " \n    "
-                + channel_map[max_2024[4].Key] + " \n ");
+            Console.WriteLine("most popular channels in 2024: \n    " +
+                "#1: " + max_2024[0].Value.ToString() + " | " + channel_map[max_2024[0].Key] + " \n    " +
+                "#2: " + max_2024[1].Value.ToString() + " | " + channel_map[max_2024[1].Key] + " \n    " +
+                "#3: " + max_2024[2].Value.ToString() + " | " + channel_map[max_2024[2].Key] + " \n    " +
+                "#4: " + max_2024[3].Value.ToString() + " | " + channel_map[max_2024[3].Key] + " \n    " +
+                "#5: " + max_2024[4].Value.ToString() + " | " + channel_map[max_2024[4].Key] + " \n ");
 
             var max_2023 = MessagesPerChannel2023.OrderByDescending(d => d.Value).ToArray();
-            Console.WriteLine("most popular channels in 2023: \n    "
-                + channel_map[max_2023[0].Key] + " \n    "
-                + channel_map[max_2023[1].Key] + " \n    "
-                + channel_map[max_2023[2].Key] + " \n    "
-                + channel_map[max_2023[3].Key] + " \n    "
-                + channel_map[max_2023[4].Key] + " \n ");
+            Console.WriteLine("most popular channels in 2023: \n    " +
+                "#1: " + max_2023[0].Value.ToString() + " | " + channel_map[max_2023[0].Key] + " \n    " +
+                "#2: " + max_2023[1].Value.ToString() + " | " + channel_map[max_2023[1].Key] + " \n    " +
+                "#3: " + max_2023[2].Value.ToString() + " | " + channel_map[max_2023[2].Key] + " \n    " +
+                "#4: " + max_2023[3].Value.ToString() + " | " + channel_map[max_2023[3].Key] + " \n    " +
+                "#5: " + max_2023[4].Value.ToString() + " | " + channel_map[max_2023[4].Key] + " \n ");
 
             var max_2022 = MessagesPerChannel2022.OrderByDescending(d => d.Value).ToArray();
-            Console.WriteLine("most popular channels in 2022: \n    "
-                + channel_map[max_2022[0].Key] + " \n    "
-                + channel_map[max_2022[1].Key] + " \n    "
-                + channel_map[max_2022[2].Key] + " \n    "
-                + channel_map[max_2022[3].Key] + " \n    "
-                + channel_map[max_2022[4].Key] + " \n ");
+            Console.WriteLine("most popular channels in 2022: \n    " +
+                "#1: " + max_2022[0].Value.ToString() + " | " + channel_map[max_2022[0].Key] + " \n    " +
+                "#2: " + max_2022[1].Value.ToString() + " | " + channel_map[max_2022[1].Key] + " \n    " +
+                "#3: " + max_2022[2].Value.ToString() + " | " + channel_map[max_2022[2].Key] + " \n    " +
+                "#4: " + max_2022[3].Value.ToString() + " | " + channel_map[max_2022[3].Key] + " \n    " +
+                "#5: " + max_2022[4].Value.ToString() + " | " + channel_map[max_2022[4].Key] + " \n ");
 
             var max_2021 = MessagesPerChannel2021.OrderByDescending(d => d.Value).ToArray();
-            Console.WriteLine("most popular channels in 2021: \n    "
-                + channel_map[max_2021[0].Key] + " \n    "
-                + channel_map[max_2021[1].Key] + " \n    "
-                + channel_map[max_2021[2].Key] + " \n    "
-                + channel_map[max_2021[3].Key] + " \n    "
-                + channel_map[max_2021[4].Key] + " \n ");
+            Console.WriteLine("most popular channels in 2021: \n    " +
+                "#1: " + max_2021[0].Value.ToString() + " | " + channel_map[max_2021[0].Key] + " \n    " +
+                "#2: " + max_2021[1].Value.ToString() + " | " + channel_map[max_2021[1].Key] + " \n    " +
+                "#3: " + max_2021[2].Value.ToString() + " | " + channel_map[max_2021[2].Key] + " \n    " +
+                "#4: " + max_2021[3].Value.ToString() + " | " + channel_map[max_2021[3].Key] + " \n    " +
+                "#5: " + max_2021[4].Value.ToString() + " | " + channel_map[max_2021[4].Key] + " \n ");
 
             var max_2020 = MessagesPerChannel2020.OrderByDescending(d => d.Value).ToArray();
-            Console.WriteLine("most popular channels in 2020: \n    "
-                + channel_map[max_2020[0].Key] + " \n    "
-                + channel_map[max_2020[1].Key] + " \n    "
-                + channel_map[max_2020[2].Key] + " \n    "
-                + channel_map[max_2020[3].Key] + " \n    "
-                + channel_map[max_2020[4].Key] + " \n");
+            Console.WriteLine("most popular channels in 2020: \n    " +
+                "#1: " + max_2020[0].Value.ToString() + " | " + channel_map[max_2020[0].Key] + " \n    " +
+                "#2: " + max_2020[1].Value.ToString() + " | " + channel_map[max_2020[1].Key] + " \n    " +
+                "#3: " + max_2020[2].Value.ToString() + " | " + channel_map[max_2020[2].Key] + " \n    " +
+                "#4: " + max_2020[3].Value.ToString() + " | " + channel_map[max_2020[3].Key] + " \n    " +
+                "#5: " + max_2020[4].Value.ToString() + " | " + channel_map[max_2020[4].Key] + " \n ");
 
             Console.WriteLine("Finished, press enter to exit, scroll up to see summarized data");
             Console.ReadLine(); // Wait for user input, once program ends itll close probably
