@@ -18,9 +18,11 @@ First, obtain a data package, if you already have one, skip this
 4. Wait to recieve the package in the email
 5. Download and unzip it
 
-Download/Compile the data summarizer
-You can do this by navigating to the 'Releases' section on this page
-If you wanna compile it idk figure it out urself im not explaining that
+
+Download/Compile the data summarizer 
+- You can do this by navigating to the 'Releases' section on this page
+- If you wanna compile it idk figure it out urself im not explaining that
+
 
 Then, with your data package
 1. Open DiscordDataSummarizer.exe
