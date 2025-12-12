@@ -15,7 +15,7 @@ First, obtain a data package, if you already have one, skip this
 1. Go to 'Data & Privacy' in settings.
 2. Scroll down to 'Request your data'
 3. Request a package with the 'Messages' option enabled
-4. Wait to recieve the package in the email
+4. Wait to receive the package in the email
 5. Download and unzip it
 
 
