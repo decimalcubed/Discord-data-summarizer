@@ -6,9 +6,7 @@ Doesnt give ANY information on how much time youve spent in vcs, because the fil
 
 THIS PROGRAM IS REALLY JANKY and not very polished i wrote it very quickly and sloppily, please read the below instructions if you do not know what you are doing
 
-
-# This only works on 64 bit windows
-If you are on linux/mac you will have to figure something out on your own sorry
+If you are on MacOS/Linux, you will have to compile this yourself
 
 # To use:
 First, obtain a data package, if you already have one, skip this
@@ -21,7 +19,7 @@ First, obtain a data package, if you already have one, skip this
 
 Download/Compile the data summarizer 
 - You can do this by navigating to the 'Releases' section on this page
-- If you wanna compile it idk figure it out urself im not explaining that
+- To compile, clone this repository, cd into this folder and run `dotnet build`
 
 
 Then, with your data package
@@ -29,7 +27,8 @@ Then, with your data package
 2. Copy+Paste the directory/path of the unzipped data package into it
 3. Press enter
 4. Press enter again (or Y then enter if you want some debug info)
-5. Wait a bit
+5. Input number of top channels to display (or press enter for default)
+6. Wait a bit
    
 the program SHOULD now display info about your message count + most used channels for the years 2020-2025, if it doesnt PLEASE make an issue here
 you might have to scroll up a bit or resize the window to see all of it
