@@ -26,7 +26,7 @@ Download/Compile the data summarizer
 
 Then, with your data package
 1. Open DiscordDataSummarizer-win64.exe
-2. Copy+Paste the directory/path of the unzipped data package into it
+2. Copy+Paste the directory/path of the unzipped data package into it (note: do not include any ", and dont include a \messages\ at the end)
 3. Press enter
 4. Press enter again (or Y then enter if you want some debug info)
 5. Wait a bit
