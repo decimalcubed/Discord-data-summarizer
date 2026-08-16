@@ -601,13 +601,23 @@ namespace DiscordDataSummarizerVC2
                 }
             }
 
+            string path_to_events = "";
+            for (int i = 2016; i <= 2040; i++) // Check to see if an analytics file exists for years 2016-2040
+            {
 
-            StreamReader shitr = new StreamReader(dir + "\\Activity\\analytics\\events-2025-00000-of-00001.json");
+                if (Directory.Exists(dir + $"\\Activity\\analytics\\events-{i}-00000-of-00001.json"))
+                {
+
+                    path_to_events = dir + $"\\Activity\\analytics\\events-{i}-00000-of-00001.json";
+                }
+            }
+
+            StreamReader shitr = new StreamReader(path_to_events);
 
             // Read every line so we can know what the line count is
             Int64 whatlineareweon = 0;
             Int64 linecount = 0;
-            using (StreamReader line_checker = new StreamReader(dir + "\\Activity\\analytics\\events-2025-00000-of-00001.json"))
+            using (StreamReader line_checker = new StreamReader(path_to_events))
             {
 
                 while (!line_checker.EndOfStream)
@@ -617,7 +627,7 @@ namespace DiscordDataSummarizerVC2
                     {
 
                         Console.Clear();
-                        Console.Write("Calculating file size: " + linecount + " lines\n");
+                        Console.Write($"Calculating file size {path_to_events}: " + linecount + " lines\n");
                     }
 
                     line_checker.ReadLine();
