@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
-    <PackageReference Include="ScottPlot" Version="5.1.57" />
   </ItemGroup>
 
 </Project>

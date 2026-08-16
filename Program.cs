@@ -1,17 +1,4 @@
-﻿using Microsoft.VisualBasic;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
-using ScottPlot;
-using ScottPlot.Interactivity;
-using ScottPlot.Plottables;
-using System;
-using System.ComponentModel.DataAnnotations;
-using System.Diagnostics;
-using System.IO;
-using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
-using System.Text.Json;
+﻿using Newtonsoft.Json;
 
 namespace DiscordDataSummarizerVC2
 {
